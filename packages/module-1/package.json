@@ -1,0 +1,25 @@
+{
+  "name": "@xiaoe/module-1",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "owenla <llaiwenbin@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/module-1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://111.230.199.61:6888/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/module-1.test.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

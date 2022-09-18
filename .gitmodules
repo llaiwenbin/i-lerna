@@ -1,0 +1,3 @@
+[submodule "subs/asyncImport"]
+	path = subs/asyncImport
+	url = git@github.com:llaiwenbin/asyncImport.git
